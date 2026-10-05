@@ -4,6 +4,9 @@ title = 'Baroda Film Festival Shorts 2.0'
 enableRobotsTXT = true
 disableKinds = ['taxonomy', 'term']
 
+[markup.goldmark.parser.attribute]
+block = true
+
 [params]
   description = 'Baroda Film Festival Shorts 2.0 is two days of short films in Vadodara, November 21–22, 2026.'
   edition = '2.0'

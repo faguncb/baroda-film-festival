@@ -564,6 +564,13 @@ main,
 .prose ul { padding-left: 1.1rem; }
 .prose li + li { margin-top: 0.35rem; }
 .prose strong { color: var(--paper); font-weight: 600; }
+.prose .important-dates li {
+  color: var(--paper);
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
 .prose blockquote {
   margin: 0 0 2rem;
   padding: 0.2rem 0 0.2rem 1rem;
