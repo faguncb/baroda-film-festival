@@ -716,17 +716,26 @@ textarea { resize: vertical; }
   color: var(--gold-2);
 }
 
-.food-partner {
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4.5rem;
+  padding: 3.25rem 0 2.75rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.food-partner,
+.radio-partner {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   gap: 1rem;
-  padding: 3.25rem 0 2.75rem;
-  border-bottom: 1px solid var(--line);
 }
 
-.food-partner img {
+.food-partner img,
+.radio-partner img {
   width: min(240px, 72vw);
   height: auto;
 }
@@ -774,6 +783,7 @@ textarea { resize: vertical; }
 
 @media (max-width: 860px) {
   .nav-toggle { display: inline-flex; }
+  .partners { flex-direction: column; align-items: center; gap: 2.75rem; }
   .header-logo img { height: 2.6rem; }
   .nav {
     display: none;
