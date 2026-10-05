@@ -60,7 +60,7 @@ For us, discovering a meaningful film is more important than being the first pla
 
 ## 7. How to submit
 
-Please submit your film(s) using the link [here](https://forms.gle/KfYkwTah2PJfhKux7):
+Please submit your film(s) using the link given at the end of the page.
 
 ## 8. Multiple films
 
@@ -195,3 +195,5 @@ We want to create a space where filmmakers can encounter audiences, audiences ca
 We welcome emerging filmmakers alongside experienced ones, local stories alongside distant ones, and films that challenge us alongside films that simply make us feel something deeply.
 
 If your film has something it genuinely wants to communicate, we would like to see it.
+
+<a class="submission-link" href="https://forms.gle/KXCAGc9M8kYCWTAWA">Submission Link</a>
