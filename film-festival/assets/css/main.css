@@ -722,7 +722,6 @@ textarea { resize: vertical; }
   align-items: flex-start;
   gap: 4.5rem;
   padding: 3.25rem 0 2.75rem;
-  border-bottom: 1px solid var(--line);
 }
 
 .food-partner,
