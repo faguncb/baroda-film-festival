@@ -14,9 +14,7 @@
   <section class="band" aria-labelledby="films-heading">
     <div class="wrap">
       <p class="kicker" id="films-heading">01 — Films</p>
-      {{ with site.Params.submissionForm }}
-        <a class="button" href="{{ . }}" target="_blank" rel="noopener noreferrer">Submit your film here</a>
-      {{ end }}
+      <a class="button" href="{{ (site.GetPage "/submission-rules").RelPermalink }}">Submit your film here</a>
     </div>
   </section>
 
