@@ -8,9 +8,7 @@ stats:
   - label: Rasas
     value: "09"
   - label: Short films
-    value: "18"
-  - label: Films per rasa
-    value: "02"
+    value: "Watch out!"
   - label: Days
     value: "02"
 ---
