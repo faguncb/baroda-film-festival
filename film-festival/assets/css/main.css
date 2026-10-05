@@ -131,6 +131,20 @@ main,
 
 .nav { margin-left: auto; }
 
+.header-logo {
+  display: flex;
+  flex: 0 0 auto;
+  line-height: 0;
+}
+
+.header-logo img {
+  height: 3.5rem;
+  width: auto;
+  background: #fff;
+  border-radius: 0.35rem;
+  object-fit: contain;
+}
+
 .nav ul {
   display: flex;
   align-items: center;
@@ -744,6 +758,7 @@ textarea { resize: vertical; }
 
 @media (max-width: 860px) {
   .nav-toggle { display: inline-flex; }
+  .header-logo img { height: 2.6rem; }
   .nav {
     display: none;
     position: absolute;
