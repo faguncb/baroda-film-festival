@@ -53,9 +53,7 @@ For us, discovering a meaningful film is more important than being the first pla
 
 ## 7. How to submit
 
-Films should be submitted through FilmFreeway or through an online screener approved by the festival.
-
-Please make sure that all screening links and passwords remain active throughout the selection period.
+Please submit your film(s) using the link [here](https://forms.gle/KfYkwTah2PJfhKux7):
 
 ## 8. Multiple films
 
