@@ -7,6 +7,12 @@ description: Submission rules and regulations for Baroda Film Festival Shorts 2.
 
 We welcome films that come from different places, languages, budgets and ways of seeing the world. Before submitting, please read the guidelines below so that the process remains fair and transparent for everyone.
 
+## Important dates
+
+- Film(s) should have got completed by: 6th October, 2026
+- Film(s) should be submitted by: 21st October, 2026
+- Announcement of the selection: 31st October, 2026
+
 ## 1. Who can submit
 
 Submissions are open to independent filmmakers, students, film collectives and production teams.
