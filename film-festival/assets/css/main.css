@@ -1,18 +1,18 @@
 :root {
-  --bg: #110f0c;
-  --bg-raise: #1c1814;
-  --paper: #f3ecdf;
-  --paper-soft: #d8d0c3;
-  --muted: #a3988b;
-  --line: rgba(243, 236, 223, 0.16);
-  --gold: #e4b15a;
-  --gold-2: #f3d7a6;
+  --bg: #f6f1e7;
+  --bg-raise: #fffaf3;
+  --paper: #1a140f;
+  --paper-soft: #3d342c;
+  --muted: #6e6258;
+  --line: rgba(26, 20, 15, 0.14);
+  --gold: #9a6420;
+  --gold-2: #8a4d12;
   --ink: #1a140f;
   --serif: "Fraunces", Georgia, "Times New Roman", serif;
   --sans: "Outfit", "Avenir Next", "Segoe UI", sans-serif;
   --wrap: 1120px;
   --header: 4.5rem;
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 *,
@@ -97,7 +97,7 @@ main,
   position: sticky;
   top: 0;
   z-index: 40;
-  background: rgba(17, 15, 12, 0.9);
+  background: rgba(246, 241, 231, 0.94);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--line);
 }
@@ -598,7 +598,7 @@ main,
 .photo-rotator-frame img.is-on { opacity: 1; }
 
 .prose a.submission-link {
-  color: #ffe14a;
+  color: #8a4d12;
   font-weight: 600;
   font-style: italic;
   text-decoration: underline;
@@ -829,7 +829,7 @@ textarea { resize: vertical; }
     right: 0;
     top: 100%;
     padding: 0.4rem 1.25rem 1rem;
-    background: rgba(17, 15, 12, 0.98);
+    background: rgba(246, 241, 231, 0.98);
     border-bottom: 1px solid var(--line);
   }
   .nav.is-open { display: block; }
