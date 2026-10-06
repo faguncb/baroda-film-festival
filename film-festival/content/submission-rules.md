@@ -3,7 +3,6 @@ title: Submission Rules
 kicker: Guidelines
 lede: We see this festival not simply as a place to screen films, but as a space where filmmakers, audiences and communities can meet through cinema.
 description: Submission rules and regulations for Baroda Film Festival Shorts 2.0.
-gallery: true
 ---
 
 We welcome films that come from different places, languages, budgets and ways of seeing the world. Before submitting, please read the guidelines below so that the process remains fair and transparent for everyone.

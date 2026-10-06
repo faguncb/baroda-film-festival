@@ -32,15 +32,5 @@
         </aside>
       {{ end }}
     </div>
-    {{ if .Params.gallery }}
-      {{ $captions := slice "A panel discussion at the festival" "Audience at a festival screening" "A clapperboard handover" "A guest speaking with a microphone" "A conversation during the festival" "A panel on filmmaking" "A crew member in the auditorium" "A short film screening" "An award presentation" "A masterclass session" "Filmmakers receiving a festival certificate" "Speakers on stage" "Audience watching a session" }}
-      <div class="photo-rotator" data-rotator>
-        <div class="photo-rotator-frame">
-          {{ range $i, $caption := $captions }}
-            <img src="{{ printf "gallery/%02d.jpg" (add $i 1) | relURL }}" alt="{{ $caption }}"{{ if eq $i 0 }} class="is-on"{{ end }}>
-          {{ end }}
-        </div>
-      </div>
-    {{ end }}
   </article>
 {{ end }}
