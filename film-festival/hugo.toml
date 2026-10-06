@@ -51,8 +51,6 @@ unsafe = true
   name = 'Tickets'
   pageRef = '/tickets'
   weight = 20
-  [menus.main.params]
-    cta = true
 
 [[menus.main]]
   name = 'Venue'

@@ -166,16 +166,8 @@ main,
 .nav a:hover,
 .nav a[aria-current="page"] { color: var(--paper); }
 
-.nav a[aria-current="page"]:not(.nav-cta) {
+.nav a[aria-current="page"] {
   box-shadow: inset 0 -2px 0 var(--gold);
-}
-
-.nav-cta {
-  margin-left: 0.4rem;
-  border-radius: 999px;
-  background: var(--gold);
-  color: var(--ink) !important;
-  font-weight: 600;
 }
 
 .nav-toggle {
@@ -834,7 +826,6 @@ textarea { resize: vertical; }
   }
   .nav.is-open { display: block; }
   .nav ul { flex-direction: column; align-items: stretch; }
-  .nav-cta { margin: 0.3rem 0 0; justify-content: center; }
   .quotes,
   .pass-grid { grid-template-columns: 1fr; }
   .showtimes li { grid-template-columns: 5.4rem 1fr; }
