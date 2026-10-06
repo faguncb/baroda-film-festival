@@ -760,6 +760,18 @@ textarea { resize: vertical; }
 
 .site-footer a { color: var(--gold-2); }
 
+.instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.instagram-link svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  flex: 0 0 auto;
+}
+
 .missing {
   min-height: 100svh;
   display: grid;
