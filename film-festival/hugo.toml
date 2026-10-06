@@ -11,7 +11,7 @@ block = true
 unsafe = true
 
 [params]
-  description = 'Baroda Film Festival Shorts 2.0 is two days of short films in Vadodara, November 21–22, 2026.'
+  description = 'Two days of short films at Alembic Art City, Vadodara. November 21 - 22, 2026'
   edition = '2.0'
   dates = 'November 21–22, 2026'
   dateRange = 'Nov 21–22, 2026'
