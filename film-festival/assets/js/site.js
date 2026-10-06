@@ -78,3 +78,15 @@ if (form) {
     window.location.href = href;
   });
 }
+
+const rotator = document.querySelector("[data-rotator]");
+if (rotator && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  const slides = [...rotator.querySelectorAll("img")];
+  let index = slides.findIndex((slide) => slide.classList.contains("is-on"));
+  if (index < 0) index = 0;
+  window.setInterval(() => {
+    slides[index].classList.remove("is-on");
+    index = (index + 1) % slides.length;
+    slides[index].classList.add("is-on");
+  }, 4000);
+}
