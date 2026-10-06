@@ -38,17 +38,13 @@ We are interested in films with a distinct voice, perspective or way of looking 
 
 A large budget, professional equipment or an established name is not a requirement.
 
-## 4. Completion date
-
-Films should have been completed on or after [insert eligibility date/year].
-
-## 5. Language and subtitles
+## 4. Language and subtitles
 
 Films may be submitted in any language.
 
 Films containing dialogue in languages other than English should include clear and readable English subtitles, so that the film can be experienced by our selection team and a wider audience.
 
-## 6. Previous screenings and premiere status
+## 5. Previous screenings and premiere status
 
 We do not require world, India, state or city premiere status, unless specifically mentioned for a particular programme.
 
@@ -58,17 +54,17 @@ Films already available online may also be considered.
 
 For us, discovering a meaningful film is more important than being the first place to screen it.
 
-## 7. How to submit
+## 6. How to submit
 
 Please submit your film(s) using the link given at the end of the page.
 
-## 8. Multiple films
+## 7. Multiple films
 
 Filmmakers are welcome to submit more than one film.
 
 Each film should be submitted separately.
 
-## 9. Tell us about your film
+## 8. Tell us about your film
 
 Please provide accurate basic information about the film, including:
 
@@ -84,7 +80,7 @@ Please provide accurate basic information about the film, including:
 
 We encourage filmmakers to keep their synopsis simple and let the film speak for itself.
 
-## 10. Rights and permissions
+## 9. Rights and permissions
 
 The filmmaker or submitter must hold the necessary rights and permissions for everything included in the film. This may include:
 
@@ -98,7 +94,7 @@ The filmmaker or submitter must hold the necessary rights and permissions for ev
 
 Responsibility for securing these rights remains with the filmmaker.
 
-## 11. Generative AI
+## 10. Generative AI
 
 If generative AI has played a substantial creative role in the film, please mention this during submission.
 
@@ -108,7 +104,7 @@ The use of AI does not automatically make a film more or less suitable for the f
 
 We simply believe that understanding how a work was created is part of understanding the work itself.
 
-## 12. How films are selected
+## 11. How films are selected
 
 Every eligible film will be viewed and considered by our programming or selection team.
 
@@ -127,7 +123,7 @@ We are not looking for technical perfection alone.
 
 Sometimes a small, imperfect film can say something far more memorable than a technically polished one.
 
-## 13. Selection decisions
+## 12. Selection decisions
 
 Submitting a film does not guarantee selection.
 
@@ -137,7 +133,7 @@ Because of the number of submissions, we may not always be able to provide indiv
 
 Please know that non-selection does not necessarily mean that we consider a film unsuccessful. Programming also depends on the character, balance and conversation of each festival edition.
 
-## 14. If your film is selected
+## 13. If your film is selected
 
 If selected, the filmmaker grants the festival permission to screen the film as part of the edition for which it was submitted.
 
@@ -145,7 +141,7 @@ The filmmaker continues to retain full ownership and copyright of the film.
 
 Any screening outside the agreed festival context will require separate permission.
 
-## 15. Screening copy
+## 14. Screening copy
 
 Selected filmmakers will be asked to provide a high-quality screening copy within the specified deadline.
 
@@ -166,7 +162,7 @@ Selected filmmakers will be asked to provide a high-quality screening copy withi
 
 We want audiences to experience every film as closely as possible to the way its filmmaker intended.
 
-## 16. Promotional material
+## 15. Promotional material
 
 Selected filmmakers may be asked to provide:
 
@@ -179,13 +175,13 @@ Selected filmmakers may be asked to provide:
 
 The festival may use these materials to promote the selected film and the festival through its website, social media, press communication and programme material.
 
-## 17. Film clips
+## 16. Film clips
 
 Short excerpts, trailers or clips from selected films may be used for festival-related promotion.
 
 The complete film will not be commercially distributed, sold or used outside the agreed festival context without the filmmaker's permission.
 
-## 18. Withdrawal
+## 17. Withdrawal
 
 If circumstances require you to withdraw your film, please inform us as early as possible.
 
@@ -193,7 +189,7 @@ Once the official programme has been announced, we request filmmakers not to wit
 
 A festival programme involves audiences, venues, schedules and many people working together, and every selected film becomes part of that larger commitment.
 
-## 19. By submitting
+## 18. By submitting
 
 By submitting your film, you confirm that you have read and accepted these guidelines.
 
