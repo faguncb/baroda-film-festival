@@ -149,7 +149,20 @@ Any screening outside the agreed festival context will require separate permissi
 
 Selected filmmakers will be asked to provide a high-quality screening copy within the specified deadline.
 
-Technical requirements will be communicated after selection.
+**Technical Submission Specifications**
+
+- **File format:** .MOV
+- **Video codec:** Apple ProRes 422 / ProRes 422 HQ preferred, or H.264 if necessary
+- **Resolution:** Minimum 1920 × 1080 (Full HD); 4K accepted
+- **Frame rate:** Native/original frame rate preferred (for example 23.976, 24, 25, 29.97 fps)
+- **Aspect ratio:** 16:9 preferred; other aspect ratios accepted
+- **Audio:** Stereo or 5.1, 48 kHz, 24-bit preferred
+- **Audio levels:** No clipping; properly mixed/mastered
+- **Subtitles:** English subtitles required for films not primarily in English
+  - Please hardcode into the video
+- **No DCP required.**
+- **No watermarks, logos, timecodes, or festival-specific overlays.**
+- **Please submit the final screening version of the film.**
 
 We want audiences to experience every film as closely as possible to the way its filmmaker intended.
 
