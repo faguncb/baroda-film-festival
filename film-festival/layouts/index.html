@@ -11,24 +11,35 @@
     </div>
   </section>
 
-  <section class="band" aria-labelledby="films-heading">
+  <section class="band concept" aria-labelledby="concept-heading">
     <div class="wrap">
-      <p class="kicker" id="films-heading">01 — Films</p>
-      <a class="button" href="{{ (site.GetPage "/submission-rules").RelPermalink }}">Submit your film here</a>
+      <div class="concept-boards">
+        <div class="concept-group">
+          <p class="kicker" id="concept-heading">The idea</p>
+          <p class="concept-note">Nine ways of feeling an image.</p>
+          <a class="concept-preview" href="{{ "concept/nava-rasa.png" | relURL }}" data-fullsize>
+            <img src="{{ "concept/nava-rasa.png" | relURL }}" alt="Nava Rasa, a two-day exhibition of short cinema. Rasa is nine ways of feeling an image. The nine rasas are listed, with the festival at Alembic City, Vadodara on 21 and 22 November.">
+            <span>View full size</span>
+          </a>
+        </div>
+        <div class="concept-group">
+          <p class="kicker">The spectator</p>
+          <p class="concept-note">A space between image and response.</p>
+          <a class="concept-preview" href="{{ "concept/the-spectator.png" | relURL }}" data-fullsize>
+            <img src="{{ "concept/the-spectator.png" | relURL }}" alt="The spectator as participant. Baroda Film Festival brings short films together through the nine rasas, in a shared space between the image and the audience.">
+            <span>View full size</span>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
+  <dialog class="concept-viewer">
+    <button type="button" class="concept-viewer-close">Close</button>
+    <img alt="">
+  </dialog>
 
-  <section class="band" aria-labelledby="schedule-heading">
+  <section class="band">
     <div class="wrap">
-      <p class="kicker" id="schedule-heading">02 — Program</p>
-      <a class="button" href="{{ (site.GetPage "/program").RelPermalink }}">Here is the program</a>
-    </div>
-  </section>
-
-  <section class="band" aria-labelledby="passes-heading">
-    <div class="wrap">
-      <p class="kicker" id="passes-heading">03 — Tickets</p>
-      <a class="button" href="{{ (site.GetPage "/tickets").RelPermalink }}">Your tickets are here</a>
       <div class="quotes">
         <blockquote class="quote">
           <p>“A film is never really good unless the camera is an eye in the head of a poet.”</p>

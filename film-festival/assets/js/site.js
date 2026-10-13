@@ -79,6 +79,30 @@ if (form) {
   });
 }
 
+const viewer = document.querySelector(".concept-viewer");
+const viewerImage = viewer?.querySelector("img");
+const viewerClose = viewer?.querySelector(".concept-viewer-close");
+
+if (viewer && viewerImage) {
+  for (const link of document.querySelectorAll("[data-fullsize]")) {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const image = link.querySelector("img");
+      viewerImage.src = link.href;
+      viewerImage.alt = image?.alt || "";
+      viewer.showModal();
+    });
+  }
+
+  viewerClose?.addEventListener("click", () => viewer.close());
+  viewer.addEventListener("click", (event) => {
+    if (event.target === viewer) viewer.close();
+  });
+  viewer.addEventListener("close", () => {
+    viewerImage.removeAttribute("src");
+  });
+}
+
 const rotator = document.querySelector("[data-rotator]");
 if (rotator && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
   const slides = [...rotator.querySelectorAll("img")];
