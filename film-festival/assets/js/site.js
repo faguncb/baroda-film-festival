@@ -104,13 +104,30 @@ if (viewer && viewerImage) {
 }
 
 const rotator = document.querySelector("[data-rotator]");
-if (rotator && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+if (rotator) {
+  const frame = rotator.querySelector(".photo-rotator-frame");
   const slides = [...rotator.querySelectorAll("img")];
   let index = slides.findIndex((slide) => slide.classList.contains("is-on"));
   if (index < 0) index = 0;
-  window.setInterval(() => {
-    slides[index].classList.remove("is-on");
-    index = (index + 1) % slides.length;
-    slides[index].classList.add("is-on");
-  }, 4000);
+
+  const fit = (slide) => {
+    const apply = () => {
+      if (frame && slide.naturalWidth) {
+        frame.style.aspectRatio = `${slide.naturalWidth} / ${slide.naturalHeight}`;
+      }
+    };
+    if (slide.complete && slide.naturalWidth) apply();
+    else slide.addEventListener("load", apply, { once: true });
+  };
+
+  fit(slides[index]);
+
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    window.setInterval(() => {
+      slides[index].classList.remove("is-on");
+      index = (index + 1) % slides.length;
+      slides[index].classList.add("is-on");
+      fit(slides[index]);
+    }, 4000);
+  }
 }
