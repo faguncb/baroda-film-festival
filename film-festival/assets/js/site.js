@@ -103,6 +103,20 @@ if (viewer && viewerImage) {
   });
 }
 
+for (const idea of document.querySelectorAll("[data-idea-carousel]")) {
+  const slides = [...idea.querySelectorAll(".idea-slide")];
+  const count = idea.querySelector("[data-idea-count]");
+  let index = 0;
+  const show = (next) => {
+    slides[index].classList.remove("is-on");
+    index = (next + slides.length) % slides.length;
+    slides[index].classList.add("is-on");
+    if (count) count.textContent = `${index + 1} / ${slides.length}`;
+  };
+  idea.querySelector("[data-idea-prev]")?.addEventListener("click", () => show(index - 1));
+  idea.querySelector("[data-idea-next]")?.addEventListener("click", () => show(index + 1));
+}
+
 const rotator = document.querySelector("[data-rotator]");
 if (rotator) {
   const frame = rotator.querySelector(".photo-rotator-frame");
