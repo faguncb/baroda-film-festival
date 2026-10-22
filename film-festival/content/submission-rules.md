@@ -10,8 +10,8 @@ We welcome films that come from different places, languages, budgets and ways of
 ## Important dates
 
 - Film(s) should have got completed by: 6th October, 2026
-- Film(s) should be submitted by: 21st October, 2026
-- Announcement of the selection: 31st October, 2026
+- Film(s) should be submitted by: 31st October, 2026
+- Announcement of the selection:
 {.important-dates}
 
 ## 1. Who can submit
