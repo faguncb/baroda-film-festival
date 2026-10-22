@@ -1,8 +1,10 @@
 {{ define "main" }}
   <article class="wrap sheet">
     {{ partial "page-head.html" . }}
-    <div class="sheet-grid">
-      <div class="prose">{{ .Content }}</div>
+    <div class="sheet-grid{{ if not (.Content | strings.TrimSpace) }} sheet-grid-solo{{ end }}">
+      {{ with .Content | strings.TrimSpace }}
+        <div class="prose">{{ $.Content }}</div>
+      {{ end }}
       {{ if eq .Params.sidebar "facts" }}
         <aside class="aside-card">
           <p class="footer-label">At a glance</p>

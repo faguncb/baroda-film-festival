@@ -343,6 +343,45 @@ main,
   padding-top: 3.25rem;
 }
 
+.programme-line {
+  max-width: 18em;
+  margin: 0 0 2rem;
+  font-family: var(--serif);
+  font-size: clamp(1.8rem, 3.4vw, 2.7rem);
+  font-weight: 520;
+  letter-spacing: -0.03em;
+  line-height: 1.12;
+}
+
+.programme-figures {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem 2rem;
+  margin: 0 0 3.75rem;
+  padding: 0;
+}
+
+.programme-figures div { margin: 0; }
+
+.programme-figures dd {
+  margin: 0;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
+  font-family: var(--serif);
+  font-size: clamp(3rem, 6vw, 4.8rem);
+  letter-spacing: -0.045em;
+  line-height: 0.9;
+}
+
+.programme-figures dt {
+  margin-top: 0.45rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
 .concept-boards {
   display: flex;
   flex-direction: column;
@@ -893,6 +932,7 @@ textarea { resize: vertical; }
 @media (min-width: 800px) {
   .hero { align-items: end; }
   .sheet-grid { grid-template-columns: minmax(0, 1.6fr) minmax(240px, 0.7fr); }
+  .sheet-grid.sheet-grid-solo { grid-template-columns: minmax(240px, 22rem); }
   .reserve-grid { grid-template-columns: 1fr 1fr; align-items: start; }
   .film { grid-template-columns: 320px 1fr; align-items: start; }
   .field-row { grid-template-columns: 1fr 1fr; }
