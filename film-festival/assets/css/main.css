@@ -871,7 +871,8 @@ textarea { resize: vertical; }
 }
 
 .food-partner,
-.radio-partner {
+.radio-partner,
+.venue-partner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -880,7 +881,8 @@ textarea { resize: vertical; }
 }
 
 .food-partner img,
-.radio-partner img {
+.radio-partner img,
+.venue-partner img {
   width: min(240px, 72vw);
   height: auto;
 }
