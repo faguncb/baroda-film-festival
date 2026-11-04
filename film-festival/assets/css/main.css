@@ -866,6 +866,12 @@ main,
   text-decoration: underline;
   text-underline-offset: 0.18em;
 }
+.prose .important-dates li:has(del) {
+  text-decoration: line-through;
+}
+.prose .important-dates del {
+  text-decoration: none;
+}
 .prose blockquote {
   margin: 0 0 2rem;
   padding: 0.2rem 0 0.2rem 1rem;
