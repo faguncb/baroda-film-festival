@@ -332,6 +332,13 @@ main,
   color: var(--gold);
 }
 
+.marquee.announcement .marquee-track {
+  color: var(--paper);
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  text-transform: none;
+}
+
 @keyframes drift {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
