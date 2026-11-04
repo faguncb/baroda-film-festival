@@ -205,4 +205,4 @@ We welcome emerging filmmakers alongside experienced ones, local stories alongsi
 
 If your film has something it genuinely wants to communicate, we would like to see it.
 
-<a class="submission-link" href="https://forms.gle/KXCAGc9M8kYCWTAWA">Submission Link</a>
+<span class="submission-link is-disabled" aria-disabled="true">Submission Link</span>
