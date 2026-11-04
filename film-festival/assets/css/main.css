@@ -333,19 +333,21 @@ main,
 }
 
 .marquee.announcement {
+  position: sticky;
+  top: 0;
+  z-index: 50;
   background: #000;
   border-block: 0;
 }
 
-.marquee.announcement .marquee-track {
+.marquee.announcement p {
+  margin: 0;
+  padding: 0.55rem 1.25rem;
   color: #fff;
   font-size: 0.95rem;
-  letter-spacing: 0.06em;
-  text-transform: none;
-}
-
-.marquee.announcement .marquee-track span::before {
-  color: #e4b15a;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  text-align: center;
 }
 
 @keyframes drift {
