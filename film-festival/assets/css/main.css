@@ -332,11 +332,20 @@ main,
   color: var(--gold);
 }
 
+.marquee.announcement {
+  background: #000;
+  border-block: 0;
+}
+
 .marquee.announcement .marquee-track {
-  color: var(--paper);
+  color: #fff;
   font-size: 0.95rem;
   letter-spacing: 0.06em;
   text-transform: none;
+}
+
+.marquee.announcement .marquee-track span::before {
+  color: #e4b15a;
 }
 
 @keyframes drift {
