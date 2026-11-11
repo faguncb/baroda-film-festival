@@ -11,7 +11,7 @@ We welcome films that come from different places, languages, budgets and ways of
 
 - ~~Film(s) should have got completed by: 6th October, 2026~~
 - ~~Film(s) should be submitted by: 31st October, 2026~~
-- Announcement of the selection: Coming soon
+- Announcement of the selection: December 6, 2026
 {.important-dates}
 
 ## 1. Who can submit
