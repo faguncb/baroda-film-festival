@@ -11,10 +11,10 @@ block = true
 unsafe = true
 
 [params]
-  description = 'Two days of short films at Alembic Art City, Vadodara. November 21 - 22, 2026'
+  description = 'Two days of short films at Alembic Art City, Vadodara. January 30-31, 2027'
   edition = '2.0'
-  dates = 'November 21–22, 2026'
-  dateRange = 'Nov 21–22, 2026'
+  dates = 'January 30-31, 2027'
+  dateRange = 'Jan 30-31, 2027'
   city = 'Vadodara, Gujarat'
   email = 'thebarodashortfilmfestival@gmail.com'
   tagline = 'Two days. Nine Emotions. Films that invoke the thoughts and discussions. All at one place - revisiting the rich cultural heritage of the city'
